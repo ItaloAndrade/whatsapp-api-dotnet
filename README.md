@@ -13,7 +13,7 @@
 <a href="https://br.linkedin.com/in/italo-galbino-83958b1a4"><img src="https://img.shields.io/static/v1?label=author&message=Italo&color=important"  /></a>
 </p>
 
-# WhatsAppDotNet
+# Simples Api WhatsAppDotNet
 <p align="center"> 
  <a href="https://www.w3schools.com/cs/" target="_blank"> <img src="https://ui-flutter-git.s3-sa-east-1.amazonaws.com/whatsapp.dotnet/sharp.png" alt="csharp" width="120" height="120"/> </a> 
  <img src="https://ui-flutter-git.s3-sa-east-1.amazonaws.com/whatsapp.dotnet/pupperteer.png" alt="csharp" width="120" height="120"/>
