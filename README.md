@@ -15,9 +15,9 @@
 
 # WhatsAppDotNet
 <p align="center"> 
- <a href="https://www.w3schools.com/cs/" target="_blank"> <img src="https://ui-flutter-git.s3-sa-east-1.amazonaws.com/whatsapp.dotnet/sharp.png" alt="csharp" width="80" height="80"/> </a> 
- <img src="https://ui-flutter-git.s3-sa-east-1.amazonaws.com/whatsapp.dotnet/pupperteer.png" alt="csharp" width="80" height="80"/>
- <img src="https://ui-flutter-git.s3-sa-east-1.amazonaws.com/whatsapp.dotnet/react.png" alt="csharp" width="80" height="80"/>
+ <a href="https://www.w3schools.com/cs/" target="_blank"> <img src="https://ui-flutter-git.s3-sa-east-1.amazonaws.com/whatsapp.dotnet/sharp.png" alt="csharp" width="120" height="120"/> </a> 
+ <img src="https://ui-flutter-git.s3-sa-east-1.amazonaws.com/whatsapp.dotnet/pupperteer.png" alt="csharp" width="120" height="120"/>
+ <img src="https://ui-flutter-git.s3-sa-east-1.amazonaws.com/whatsapp.dotnet/react.png" alt="csharp" width="120" height="120"/>
  </p>
  
 ### DEMO
