@@ -99,6 +99,8 @@ namespace WhatsAppDotNet
 
         public async void sendMessage(object sender, EventArgs e)
         {
+
+            /*phone :   55 11 987511473  */ 
             await _ws.SendMessageMedia($"{txtPhone.Text.Trim()}@c.us" , new ContentMessage() { msg = txtMensagem.Text }, new MessageOption());
             txtMessages.AppendText(txtMensagem.Text.Trim() + "\r\n");
         }
