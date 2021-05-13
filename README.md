@@ -29,6 +29,9 @@ Este projeto foi desenvolvido utilizando boas práticas de programação com lin
 
 ### API 
   <img src="https://ui-flutter-git.s3-sa-east-1.amazonaws.com/whatsapp.dotnet/Capturar.PNG"  />
+  
+  ### ENTIDADES AUXILIAR 
+  <img src="https://ui-flutter-git.s3-sa-east-1.amazonaws.com/whatsapp.dotnet/ENTITY.PNG"  />
 ## License
 
 [MIT]
