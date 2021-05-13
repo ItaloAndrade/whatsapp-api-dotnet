@@ -27,9 +27,8 @@
 
 Este projeto foi desenvolvido utilizando boas práticas de programação com linguagem de programação c# em conjunto com a bliblioteca pupperteer-sharp e rx.net
 
-### API
- (https://ui-flutter-git.s3-sa-east-1.amazonaws.com/whatsapp.dotnet/Capturar.PNG) 
-  
+### API 
+  <img src="https://ui-flutter-git.s3-sa-east-1.amazonaws.com/whatsapp.dotnet/Capturar.PNG"  />
 ## License
 
 [MIT]
