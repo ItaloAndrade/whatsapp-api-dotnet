@@ -33,7 +33,7 @@ Este projeto foi desenvolvido utilizando boas práticas de programação com lin
   ### ENTIDADES AUXILIAR 
   <img src="https://ui-flutter-git.s3-sa-east-1.amazonaws.com/whatsapp.dotnet/ENTITY.PNG"  />
   
-  ### Repositórios incríveis onde encontrei algumas abordagens excelentes: 
+  ### Repositórios incríveis onde encontrei algumas abordagens e bibliotecas excelentes usadas no projeto : 
   - https://github.com/hardkoded/puppeteer-sharp
   - https://github.com/IgnaceMaes/MaterialSkin
   - https://github.com/dotnet/reactive
