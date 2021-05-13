@@ -32,8 +32,13 @@ Este projeto foi desenvolvido utilizando boas práticas de programação com lin
   
   ### ENTIDADES AUXILIAR 
   <img src="https://ui-flutter-git.s3-sa-east-1.amazonaws.com/whatsapp.dotnet/ENTITY.PNG"  />
-## License
+  
+  ### Repositórios incríveis onde encontrei algumas abordagens excelentes: 
+  - https://github.com/hardkoded/puppeteer-sharp
+  - https://github.com/IgnaceMaes/MaterialSkin
+  - https://github.com/dotnet/reactive
 
+## License
 [MIT]
 Author: Italo Andrade 😎.
 Email : ItaloAndrade.Developer@gmail.com
