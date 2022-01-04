@@ -1,0 +1,12 @@
+C:\Src\whatsapp.dotnet\nuget\whatsapp.dotnet\whatsapp.dotnet\bin\Debug\net5.0\whatsapp.dotnet.deps.json
+C:\Src\whatsapp.dotnet\nuget\whatsapp.dotnet\whatsapp.dotnet\bin\Debug\net5.0\whatsapp.dotnet.dll
+C:\Src\whatsapp.dotnet\nuget\whatsapp.dotnet\whatsapp.dotnet\bin\Debug\net5.0\ref\whatsapp.dotnet.dll
+C:\Src\whatsapp.dotnet\nuget\whatsapp.dotnet\whatsapp.dotnet\bin\Debug\net5.0\whatsapp.dotnet.pdb
+C:\Src\whatsapp.dotnet\nuget\whatsapp.dotnet\whatsapp.dotnet\obj\Debug\net5.0\whatsapp.dotnet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Src\whatsapp.dotnet\nuget\whatsapp.dotnet\whatsapp.dotnet\obj\Debug\net5.0\whatsapp.dotnet.AssemblyInfoInputs.cache
+C:\Src\whatsapp.dotnet\nuget\whatsapp.dotnet\whatsapp.dotnet\obj\Debug\net5.0\whatsapp.dotnet.AssemblyInfo.cs
+C:\Src\whatsapp.dotnet\nuget\whatsapp.dotnet\whatsapp.dotnet\obj\Debug\net5.0\whatsapp.dotnet.csproj.CoreCompileInputs.cache
+C:\Src\whatsapp.dotnet\nuget\whatsapp.dotnet\whatsapp.dotnet\obj\Debug\net5.0\whatsapp.dotnet.dll
+C:\Src\whatsapp.dotnet\nuget\whatsapp.dotnet\whatsapp.dotnet\obj\Debug\net5.0\ref\whatsapp.dotnet.dll
+C:\Src\whatsapp.dotnet\nuget\whatsapp.dotnet\whatsapp.dotnet\obj\Debug\net5.0\whatsapp.dotnet.pdb
+C:\Src\whatsapp.dotnet\nuget\whatsapp.dotnet\whatsapp.dotnet\obj\Debug\net5.0\whatsapp.dotnet.csproj.AssemblyReference.cache

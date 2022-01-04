@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	 <TargetFramework>net5.0</TargetFramework>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageId>WhatsApp.DotNet</PackageId>
+	  <Version>1.0.7</Version> 
+	  <License>MIT</License>
+	  <Authors>Italo Andrade</Authors>
+	  <Company>http://ui-flutter.app/</Company>
+	  <PackageDescription>Extensions for Api WhatsApp</PackageDescription>
+	  <Description>Extensions for Api WhatsApp</Description>
+	  <RepositoryUrl>https://github.com/ItaloAndrade/whatsapp-api-dotnet</RepositoryUrl>
+	  <PackageProjectUrl>https://github.com/ItaloAndrade/whatsapp-api-dotnet</PackageProjectUrl> 
+	  <PackageTags>WhatsApp</PackageTags>
+	  <Title>Simples Api WhatsApp DotNet</Title>
+	  <Summary>Extensions for WhatsApp</Summary>
+	  <PackageIcon>icon.png</PackageIcon>
+	  <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+	  <AssemblyVersion>1.0.5.0</AssemblyVersion>
+	  <FileVersion>1.0.5.0</FileVersion>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="PuppeteerSharp" Version="2.0.4" />
+		<PackageReference Include="NETCore.Encrypt" Version="2.0.9" />
+		<PackageReference Include="System.Reactive" Version="5.0.0" />
+		<None Include="icon.png" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+</Project>

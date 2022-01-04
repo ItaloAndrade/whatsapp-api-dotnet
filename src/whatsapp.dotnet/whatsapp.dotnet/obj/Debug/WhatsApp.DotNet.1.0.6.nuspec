@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>WhatsApp.DotNet</id>
+    <version>1.0.6</version>
+    <title>Simples Api WhatsApp DotNet</title>
+    <authors>Italo Andrade</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>icon.png</icon>
+    <projectUrl>https://github.com/ItaloAndrade/whatsapp-api-dotnet</projectUrl>
+    <description>Extensions for Api WhatsApp</description>
+    <tags>WhatsApp</tags>
+    <repository url="https://github.com/ItaloAndrade/whatsapp-api-dotnet" />
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="NETCore.Encrypt" version="2.1.0" exclude="Build,Analyzers" />
+        <dependency id="PuppeteerSharp" version="2.0.4" exclude="Build,Analyzers" />
+        <dependency id="System.Reactive" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Src\whatsapp.dotnet\nuget\whatsapp.dotnet\whatsapp.dotnet\bin\Debug\net5.0\whatsapp.dotnet.dll" target="lib\net5.0\whatsapp.dotnet.dll" />
+    <file src="C:\Src\whatsapp.dotnet\nuget\whatsapp.dotnet\whatsapp.dotnet\icon.png" target="\icon.png" />
+  </files>
+</package>
