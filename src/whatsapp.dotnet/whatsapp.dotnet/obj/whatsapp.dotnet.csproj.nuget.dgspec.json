@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Src\\whatsapp.dotnet\\nuget\\whatsapp.dotnet\\whatsapp.dotnet\\whatsapp.dotnet.csproj": {}
+    "C:\\Src\\git_sources\\whatsapp-api-dotnet\\src\\whatsapp.dotnet\\whatsapp.dotnet\\whatsapp.dotnet.csproj": {}
   },
   "projects": {
-    "C:\\Src\\whatsapp.dotnet\\nuget\\whatsapp.dotnet\\whatsapp.dotnet\\whatsapp.dotnet.csproj": {
+    "C:\\Src\\git_sources\\whatsapp-api-dotnet\\src\\whatsapp.dotnet\\whatsapp.dotnet\\whatsapp.dotnet.csproj": {
       "version": "1.0.7",
       "restore": {
-        "projectUniqueName": "C:\\Src\\whatsapp.dotnet\\nuget\\whatsapp.dotnet\\whatsapp.dotnet\\whatsapp.dotnet.csproj",
+        "projectUniqueName": "C:\\Src\\git_sources\\whatsapp-api-dotnet\\src\\whatsapp.dotnet\\whatsapp.dotnet\\whatsapp.dotnet.csproj",
         "projectName": "WhatsApp.DotNet",
-        "projectPath": "C:\\Src\\whatsapp.dotnet\\nuget\\whatsapp.dotnet\\whatsapp.dotnet\\whatsapp.dotnet.csproj",
+        "projectPath": "C:\\Src\\git_sources\\whatsapp-api-dotnet\\src\\whatsapp.dotnet\\whatsapp.dotnet\\whatsapp.dotnet.csproj",
         "packagesPath": "C:\\Users\\italo\\.nuget\\packages\\",
-        "outputPath": "C:\\Src\\whatsapp.dotnet\\nuget\\whatsapp.dotnet\\whatsapp.dotnet\\obj\\",
+        "outputPath": "C:\\Src\\git_sources\\whatsapp-api-dotnet\\src\\whatsapp.dotnet\\whatsapp.dotnet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\italo\\AppData\\Roaming\\NuGet\\NuGet.Config",

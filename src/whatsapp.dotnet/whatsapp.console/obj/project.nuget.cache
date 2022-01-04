@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s9/EiynAfJkhutTL6zvRvWR/hFYouPASCSOBBB9vceXYCmLO8VMIzjLW1NJtaNEs847sTGO8erH2nvuAgcIskg==",
+  "dgSpecHash": "VoYy1svZGK7r14BClB/wNi4pSnX6m0nRCw5RokOkq1YBAqJ3bnFVS6oRY3+bgIoW+TjFbq8kR79ILXS6BIoFag==",
   "success": true,
-  "projectFilePath": "C:\\Src\\whatsapp.dotnet\\nuget\\whatsapp.dotnet\\whatsapp.console\\whatsapp.console.csproj",
+  "projectFilePath": "C:\\Src\\git_sources\\whatsapp-api-dotnet\\src\\whatsapp.dotnet\\whatsapp.console\\whatsapp.console.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\italo\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.0.2\\microsoft.aspnetcore.webutilities.2.0.2.nupkg.sha512",
     "C:\\Users\\italo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
@@ -68,7 +68,8 @@
     "C:\\Users\\italo\\.nuget\\packages\\system.text.encodings.web\\4.4.0\\system.text.encodings.web.4.4.0.nupkg.sha512",
     "C:\\Users\\italo\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\italo\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
-    "C:\\Users\\italo\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+    "C:\\Users\\italo\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+    "C:\\Users\\italo\\.nuget\\packages\\whatsapp.dotnet\\1.0.7\\whatsapp.dotnet.1.0.7.nupkg.sha512"
   ],
   "logs": []
 }

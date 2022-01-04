@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h3nCl/+S3mxRXmQO8yLOfxcXSlfGAqGFQQ/9unGxmC9dfLeBonz4mGooDy+6GUoJeIFBdsftFRdlN4fx8OD94A==",
+  "dgSpecHash": "qIVEl4va137a7d9jSVmVeqFcFdDCixQJm0ETMWWLhnk1N2RAsEiglqnMzGriBc5zALaTvj2q+8FBtJIoLqXUoA==",
   "success": true,
-  "projectFilePath": "C:\\Src\\whatsapp.dotnet\\nuget\\whatsapp.dotnet\\whatsapp.dotnet\\whatsapp.dotnet.csproj",
+  "projectFilePath": "C:\\Src\\git_sources\\whatsapp-api-dotnet\\src\\whatsapp.dotnet\\whatsapp.dotnet\\whatsapp.dotnet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\italo\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.0.2\\microsoft.aspnetcore.webutilities.2.0.2.nupkg.sha512",
     "C:\\Users\\italo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",

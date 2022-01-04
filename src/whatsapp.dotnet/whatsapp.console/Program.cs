@@ -1,4 +1,5 @@
 ﻿using System;
+using whatsapp.console.infra;
 
 namespace whatsapp.console
 {
@@ -11,7 +12,7 @@ namespace whatsapp.console
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            //  dotnet.JsFile.GenerateEncripty();  /* CONVERTS JAVASCRIPTS FROM THE "ARTIFACTS/LIB/JS" FOLDER TO "ARTIFACTS/LIB/ENC"  */ 
+             //   JsFile.GenerateEncripty();  /* CONVERTS JAVASCRIPTS FROM THE "ARTIFACTS/LIB/JS" FOLDER TO "ARTIFACTS/LIB/ENC"  */ 
             //   dotnet.JsFile.Build(); /*GENERATES STRUCTURE FOR DLL*/
         }
     }
