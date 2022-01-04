@@ -2,12 +2,12 @@
 using System.Reactive.Subjects;
 using System.Threading;
 using System.Threading.Tasks;
-using MaterialSkin;
+using System.Windows.Forms; 
 using whatsapp.dotnet;
 
 namespace WhatsAppDotNet
 {
-    public partial class Demo : MaterialSkin.Controls.MaterialForm
+    public partial class Demo : Form
     {
 
         #region 
@@ -21,11 +21,7 @@ namespace WhatsAppDotNet
         {
             InitializeComponent();
 
-            MaterialSkinManager materialSkinManager = MaterialSkinManager.Instance;
-            materialSkinManager.AddFormToManage(this);
-            materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
-            materialSkinManager.ColorScheme = new ColorScheme(Primary.Blue400, Primary.Blue500, Primary.Blue500, Accent.Blue200, TextShade.WHITE);
-
+            
             changeMode(true);
 
             Thread.Sleep(3000);

@@ -1,4 +1,6 @@
 ﻿
+using System.Windows.Forms;
+
 namespace WhatsAppDotNet
 {
     partial class Demo
@@ -30,9 +32,9 @@ namespace WhatsAppDotNet
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Demo));
-            this.txtPhone = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.txtMensagem = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.btnSend = new MaterialSkin.Controls.MaterialFlatButton();
+            this.txtPhone = new System.Windows.Forms.TextBox();
+            this.txtMensagem = new System.Windows.Forms.TextBox();
+            this.btnSend = new  System.Windows.Forms.Button();
             this.qrCodeImage = new System.Windows.Forms.PictureBox();
             this.txtMessages = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.qrCodeImage)).BeginInit();
@@ -40,10 +42,9 @@ namespace WhatsAppDotNet
             // 
             // txtPhone
             // 
-            this.txtPhone.Depth = 0;
-            this.txtPhone.Hint = "Phone";
-            this.txtPhone.Location = new System.Drawing.Point(13, 90);
-            this.txtPhone.MouseState = MaterialSkin.MouseState.HOVER;
+ 
+            this.txtPhone.PlaceholderText = "Phone";
+            this.txtPhone.Location = new System.Drawing.Point(13, 90); 
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.PasswordChar = '\0';
             this.txtPhone.SelectedText = "";
@@ -56,10 +57,9 @@ namespace WhatsAppDotNet
             // 
             // txtMensagem
             // 
-            this.txtMensagem.Depth = 0;
-            this.txtMensagem.Hint = "Message";
-            this.txtMensagem.Location = new System.Drawing.Point(13, 139);
-            this.txtMensagem.MouseState = MaterialSkin.MouseState.HOVER;
+       
+            this.txtMensagem.PlaceholderText = "Message";
+            this.txtMensagem.Location = new System.Drawing.Point(13, 139); 
             this.txtMensagem.Name = "txtMensagem";
             this.txtMensagem.PasswordChar = '\0';
             this.txtMensagem.SelectedText = "";
@@ -73,13 +73,10 @@ namespace WhatsAppDotNet
             // btnSend
             // 
             this.btnSend.AutoSize = true;
-            this.btnSend.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnSend.Depth = 0;
+            this.btnSend.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink; 
             this.btnSend.Location = new System.Drawing.Point(346, 188);
-            this.btnSend.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.btnSend.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btnSend.Name = "btnSend";
-            this.btnSend.Primary = false;
+            this.btnSend.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6); 
+            this.btnSend.Name = "btnSend"; 
             this.btnSend.Size = new System.Drawing.Size(113, 36);
             this.btnSend.TabIndex = 2;
             this.btnSend.Text = "Send Message";
@@ -127,9 +124,9 @@ namespace WhatsAppDotNet
 
         #endregion
 
-        private MaterialSkin.Controls.MaterialSingleLineTextField txtPhone;
-        private MaterialSkin.Controls.MaterialSingleLineTextField txtMensagem;
-        private MaterialSkin.Controls.MaterialFlatButton btnSend;
+        private System.Windows.Forms.TextBox  txtPhone;
+        private System.Windows.Forms.TextBox txtMensagem;
+        private System.Windows.Forms.Button btnSend;
         private System.Windows.Forms.PictureBox qrCodeImage;
         private System.Windows.Forms.TextBox txtMessages;
     }
