@@ -7,10 +7,8 @@
             headless: true,
             defaultViewport: null
         },
-        session: false,
-        qrTimeoutMs: 45000,
-        qrRefreshIntervalMs: 20000,
-        authTimeoutMs: 45000,
+        authTimeoutMs: 0,
+        qrMaxRetries: 0,
         takeoverOnConflict: false,
         takeoverTimeoutMs: 0,
         userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36',
@@ -41,23 +39,23 @@
      * @enum {string}
      */
     window.Events = {
-        AUTHENTICATED: 0,
-        AUTHENTICATION_FAILURE: 1,
-        READY: 2,
-        MESSAGE_RECEIVED: 3,
-        MESSAGE_CREATE: 4,
-        MESSAGE_REVOKED_EVERYONE: 5,
-        MESSAGE_REVOKED_ME: 6,
-        MESSAGE_ACK: 7,
-        MEDIA_UPLOADED: 8,
-        GROUP_JOIN: 9,
-        GROUP_LEAVE: 10,
-        GROUP_UPDATE: 11,
-        QR_RECEIVED: 12,
-        DISCONNECTED: 13,
-        STATE_CHANGED: 14,
-        BATTERY_CHANGED: 15,
-        INCOMING_CALL: 16
+        AUTHENTICATED: 'authenticated',
+        AUTHENTICATION_FAILURE: 'auth_failure',
+        READY: 'ready',
+        MESSAGE_RECEIVED: 'message',
+        MESSAGE_CREATE: 'message_create',
+        MESSAGE_REVOKED_EVERYONE: 'message_revoke_everyone',
+        MESSAGE_REVOKED_ME: 'message_revoke_me',
+        MESSAGE_ACK: 'message_ack',
+        MEDIA_UPLOADED: 'media_uploaded',
+        GROUP_JOIN: 'group_join',
+        GROUP_LEAVE: 'group_leave',
+        GROUP_UPDATE: 'group_update',
+        QR_RECEIVED: 'qr',
+        DISCONNECTED: 'disconnected',
+        STATE_CHANGED: 'change_state',
+        BATTERY_CHANGED: 'change_battery',
+        INCOMING_CALL: 'incoming_call'
     };
 
     /**
@@ -80,7 +78,27 @@
         REVOKED: 'revoked',
         PRODUCT: 'product',
         UNKNOWN: 'unknown',
-        GROUP_INVITE: 'groups_v4_invite'
+        GROUP_INVITE: 'groups_v4_invite',
+        LIST: 'list',
+        LIST_RESPONSE: 'list_response',
+        BUTTONS_RESPONSE: 'buttons_response',
+        PAYMENT: 'payment',
+        BROADCAST_NOTIFICATION: 'broadcast_notification',
+        CALL_LOG: 'call_log',
+        CIPHERTEXT: 'ciphertext',
+        DEBUG: 'debug',
+        E2E_NOTIFICATION: 'e2e_notification',
+        GP2: 'gp2',
+        GROUP_NOTIFICATION: 'group_notification',
+        HSM: 'hsm',
+        INTERACTIVE: 'interactive',
+        NATIVE_FLOW: 'native_flow',
+        NOTIFICATION: 'notification',
+        NOTIFICATION_TEMPLATE: 'notification_template',
+        OVERSIZED: 'oversized',
+        PROTOCOL: 'protocol',
+        REACTION: 'reaction',
+        TEMPLATE_BUTTON_REPLY: 'template_button_reply',
     };
 
     /**

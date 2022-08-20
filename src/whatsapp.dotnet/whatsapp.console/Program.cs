@@ -12,8 +12,8 @@ namespace whatsapp.console
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-             //   JsFile.GenerateEncripty();  /* CONVERTS JAVASCRIPTS FROM THE "ARTIFACTS/LIB/JS" FOLDER TO "ARTIFACTS/LIB/ENC"  */ 
-            //   dotnet.JsFile.Build(); /*GENERATES STRUCTURE FOR DLL*/
+                JsFile.GenerateEncripty();  /* CONVERTS JAVASCRIPTS FROM THE "ARTIFACTS/LIB/JS" FOLDER TO "ARTIFACTS/LIB/ENC"  */ 
+              dotnet.JsFile.Build(); /*GENERATES STRUCTURE FOR DLL*/
         }
     }
 }

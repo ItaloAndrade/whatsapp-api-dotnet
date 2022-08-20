@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PuppeteerSharp;
+using System;
 using System.Diagnostics;
 using System.IO;
 using System.Linq; 
@@ -48,22 +49,38 @@ namespace whatsapp.dotnet
         {
             try
             {
-                await _provider.page.WaitForFunctionAsync(@"() =>
-                    (document.getElementsByClassName('landing-title version-title').length > 0 
-                    || document.getElementsByTagName('canvas').length  > 0  ||
-                    undefined !== (Array.from(document.getElementsByTagName('div')).
-                    find(o=>o.hasAttribute('data-asset-intro-image-light') || o.hasAttribute('data-asset-intro-image-dark'))))");
+                const string INTRO_IMG_SELECTOR = "[data-testid=\"intro-md-beta-logo-dark\"], [data-testid=\"intro-md-beta-logo-light\"], [data-asset-intro-image-light=\"true\"], [data-asset-intro-image-dark=\"true\"]";
+                const string INTRO_QRCODE_SELECTOR = "div[data-ref] canvas";
 
-                if (await _provider.page.EvaluateFunctionAsync<int>(
-                    "() =>  document.getElementsByClassName('landing-title version-title').length") == 1)
-                    await RecoverySession();
+                var res =  _provider.page.WaitForSelectorAsync(INTRO_IMG_SELECTOR);
 
-                return await _provider.page.EvaluateFunctionAsync<dynamic>(
-                           "() =>  window.localStorage.getItem('WAToken1')") != null &&
-                       await _provider.page.EvaluateFunctionAsync<dynamic>(
-                           "() =>  window.localStorage.getItem('WAToken2')") != null
-                    ? ProcessingType.whatsappMonitory
-                    : ProcessingType.qrcodeProcessing;
+                var res2 =  _provider.page.WaitForSelectorAsync(INTRO_QRCODE_SELECTOR);
+
+                int tr = Task.WaitAny(res, res2);
+                return tr == 0 ? ProcessingType.whatsappMonitory : ProcessingType.qrcodeProcessing;
+
+                //await _provider.page.WaitForSelectorAsync(
+                //    "[data-testid=\"intro-md-beta-logo-dark\"],"+
+                //    "[data-testid=\"intro-md-beta-logo-light\"],"+
+                //    "[data-asset-intro-image-light=\"true\"],"+
+                //    "[data-asset-intro-image-dark=\"true\"]"
+                //);
+                //await _provider.page.WaitForFunctionAsync(@"() =>
+                //    (document.getElementsByClassName('landing-title version-title').length > 0 
+                //    || document.getElementsByTagName('canvas').length  > 0  ||
+                //    undefined !== (Array.from(document.getElementsByTagName('div')).
+                //    find(o=>o.hasAttribute('data-asset-intro-image-light') || o.hasAttribute('data-asset-intro-image-dark'))))");
+
+                //if (await _provider.page.EvaluateFunctionAsync<int>(
+                //    "() =>  document.getElementsByClassName('landing-title version-title').length") == 1)
+                //    await RecoverySession();
+
+                //return await _provider.page.EvaluateFunctionAsync<dynamic>(
+                //           "() =>  window.localStorage.getItem('WAToken1')") != null &&
+                //       await _provider.page.EvaluateFunctionAsync<dynamic>(
+                //           "() =>  window.localStorage.getItem('WAToken2')") != null
+                //    ? ProcessingType.whatsappMonitory
+                //    : ProcessingType.qrcodeProcessing;
             }
             catch
             {

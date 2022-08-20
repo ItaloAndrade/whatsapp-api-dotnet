@@ -18,12 +18,12 @@ namespace whatsapp.console.infra
         {
             ManagerInfra.JsLibs = new List<JsLib>();
             var controller =
-                Path.Combine(Environment.CurrentDirectory.Replace("\\bin\\Debug\\net5.0", ""),
+                Path.Combine(Environment.CurrentDirectory.Replace("\\bin\\Debug\\net6.0", ""),
                     "artefatos\\lib\\js\\interface");
             var infrastructure =
-                Path.Combine(Environment.CurrentDirectory.Replace("\\bin\\Debug\\net5.0", ""),
+                Path.Combine(Environment.CurrentDirectory.Replace("\\bin\\Debug\\net6.0", ""),
                     "artefatos\\lib\\js\\infrastructure");
-            var model = Path.Combine(Environment.CurrentDirectory.Replace("\\bin\\Debug\\net5.0", ""),
+            var model = Path.Combine(Environment.CurrentDirectory.Replace("\\bin\\Debug\\net6.0", ""),
                 "artefatos\\lib\\js\\model");
 
             var controllerDirectory = new DirectoryInfo(controller);

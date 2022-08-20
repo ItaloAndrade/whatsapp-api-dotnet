@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31129.286
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32611.2
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsAppDotNet", "WhatsAppDotNet\WhatsAppDotNet.csproj", "{6D69148F-10F6-4D61-87D4-787FD7D2D68C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhatsAppDotNet", "WhatsAppDotNet\WhatsAppDotNet.csproj", "{6D69148F-10F6-4D61-87D4-787FD7D2D68C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "whatsapp.dotnet", "..\src\whatsapp.dotnet\whatsapp.dotnet\whatsapp.dotnet.csproj", "{7C4059B6-E455-4FA7-BBB9-D58F0A36FD75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "whatsapp.console", "..\src\whatsapp.dotnet\whatsapp.console\whatsapp.console.csproj", "{C1FC7D98-4DEE-45D0-BD69-B1051A3539D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{6D69148F-10F6-4D61-87D4-787FD7D2D68C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D69148F-10F6-4D61-87D4-787FD7D2D68C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D69148F-10F6-4D61-87D4-787FD7D2D68C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C4059B6-E455-4FA7-BBB9-D58F0A36FD75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C4059B6-E455-4FA7-BBB9-D58F0A36FD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C4059B6-E455-4FA7-BBB9-D58F0A36FD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C4059B6-E455-4FA7-BBB9-D58F0A36FD75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1FC7D98-4DEE-45D0-BD69-B1051A3539D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1FC7D98-4DEE-45D0-BD69-B1051A3539D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1FC7D98-4DEE-45D0-BD69-B1051A3539D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1FC7D98-4DEE-45D0-BD69-B1051A3539D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

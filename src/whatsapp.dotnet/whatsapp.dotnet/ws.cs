@@ -10,7 +10,7 @@ namespace whatsapp.dotnet
     public class ws
     {
         private readonly Subject<Notification> _eventRx; /*live events*/
-        private readonly bool _changedHideMode; /*indica alteração de modo vizualização*/
+        private readonly bool _saveSession; /*indica alteração de modo vizualização*/
         private   EnviromentJs _enviroment; /*js communication client*/
         private   MsgWhatSaap _eventsWhatSaap; /*controller events message */
         private   Provider _provider;  /*provider*/
@@ -40,7 +40,7 @@ namespace whatsapp.dotnet
             JsUtil.LoadLibsMemory();
             _eventRx = eventRx;
             _statusHideWhatsAppWeb = hideWhatsAppWeb; 
-            _changedHideMode = saveSession;
+            _saveSession = saveSession;
             AsyncHelpers.RunSync(Initialize);
         }
 
@@ -72,7 +72,7 @@ namespace whatsapp.dotnet
             Killer(); 
 
             /*se for alteração do modo de vizualização será removida a sessão*/
-            if(_changedHideMode)
+            if(!_saveSession)
                 if (Directory.Exists($"{Environment.CurrentDirectory}\\session")) Directory.Delete($"{Environment.CurrentDirectory}\\session", true);
 
             await new BrowserFetcher().DownloadAsync(BrowserFetcher.DefaultRevision); /*download driver chrome official site*/
