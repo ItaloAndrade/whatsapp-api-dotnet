@@ -7,16 +7,15 @@ using Newtonsoft.Json;
 
 namespace whatsapp.dotnet
 {
-    public class MsgWhatSaap
+    public class MsgWhatsAap
     {
         #region IOC
 
         public Provider _provider { get; set; }
 
-        public MsgWhatSaap(Provider provider)
+        public MsgWhatsAap(Provider provider)
         {
             _provider = provider;
-
         }
 
         #endregion

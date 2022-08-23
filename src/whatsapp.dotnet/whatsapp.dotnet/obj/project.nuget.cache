@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "llCKD/JkrNrulybHtjbtawfqsHIf6fIgXyYeghG0J4yOoW2q+lFC7EhHn8c0hKPm76eYZxzcNiLpJfEjHqwxAA==",
+  "dgSpecHash": "6WeBRPkQTudh6GBM43dXG5pN82kCcT23gkJhZDq68Pf/HyTCqfycZavtfj1POHbLDWVsJUsSXEnGI3Ksc7G37g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Animalia\\source\\repos\\whatsapp-api-dotnet\\src\\whatsapp.dotnet\\whatsapp.dotnet\\whatsapp.dotnet.csproj",
   "expectedPackageFiles": [
@@ -69,9 +69,9 @@
     "C:\\Users\\Animalia\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\Animalia\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\Animalia\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512",
-    "C:\\Users\\Animalia\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.5\\microsoft.windowsdesktop.app.ref.6.0.5.nupkg.sha512",
-    "C:\\Users\\Animalia\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.5\\microsoft.netcore.app.ref.6.0.5.nupkg.sha512",
-    "C:\\Users\\Animalia\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.5\\microsoft.aspnetcore.app.ref.6.0.5.nupkg.sha512"
+    "C:\\Users\\Animalia\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.7\\microsoft.windowsdesktop.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\Animalia\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.7\\microsoft.netcore.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\Animalia\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.7\\microsoft.aspnetcore.app.ref.6.0.7.nupkg.sha512"
   ],
   "logs": []
 }
